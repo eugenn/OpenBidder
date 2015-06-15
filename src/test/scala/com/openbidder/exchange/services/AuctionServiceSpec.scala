@@ -1,8 +1,8 @@
 package com.openbidder.exchange.services
 
+import com.openbidder.exchange.BidderConnection
 import com.openbidder.model.bidresponse.{Bid, BidResponse, SeatBid}
-import com.openbidder.model.com.openbidder.exchange.BidderConnection
-import com.openbidder.model.com.openbidder.exchange.services.AuctionService
+import com.openbidder.exchange.services.AuctionService
 import org.specs2.Specification
 import org.specs2.mock.Mockito
 
