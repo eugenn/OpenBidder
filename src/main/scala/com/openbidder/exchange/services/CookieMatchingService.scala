@@ -1,7 +1,8 @@
-package com.openbidder.model.com.openbidder.exchange.services
+package com.openbidder.exchange.services
 
+import com.openbidder.exchange.{Tags, PixelServiceConnection}
 import com.openbidder.http.{HttpRequest, HttpResponse}
-import com.openbidder.model.com.openbidder.exchange.{Tags, PixelServiceConnection}
+import com.openbidder.model.com.openbidder.exchange.Tags
 
 class CookieMatchingService (pixelServices: Map[Int, PixelServiceConnection]) {
 

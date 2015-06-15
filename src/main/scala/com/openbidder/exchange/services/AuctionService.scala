@@ -1,9 +1,10 @@
-package com.openbidder.model.com.openbidder.exchange.services
+package com.openbidder.exchange.services
 
+import com.openbidder.exchange.{Tags, BidderConnection}
 import com.openbidder.model.bidrequest._
 import com.openbidder.model.bidrequest.device.Device
 import com.openbidder.model.bidresponse.{Bid, BidResponse}
-import com.openbidder.model.com.openbidder.exchange.{Tags, BidderConnection}
+import com.openbidder.model.com.openbidder.exchange.Tags
 
 import scalaz.NonEmptyList
 

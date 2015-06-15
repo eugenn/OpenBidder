@@ -1,4 +1,4 @@
-package com.openbidder.model.com.openbidder.exchange
+package com.openbidder.exchange
 
 import com.openbidder.model.bidrequest.BidRequest
 import com.openbidder.model.bidresponse.BidResponse
